@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "swan",
+  "version": "${version}",
+  "name": "Swan",
+  "description": "",
+  "authors": [
+    "bluefirephoenix"
+  ],
+  "contact": {
+    "website": "bluefirephoenix.net",
+    "repo": "https://github.com/bloofirephoenix/Swan",
+    "website": "bluefirephoenix.net",
+    "repo": "https://github.com/bloofirephoenix/Swan"
+  },
+  "license": "MIT",
+  "icon": "assets/swan/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.bluefirephoenix.swan.Swan"
+    ]
+  },
+  "mixins": [
+    "swan.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
